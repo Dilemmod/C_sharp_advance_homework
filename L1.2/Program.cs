@@ -10,13 +10,22 @@ namespace L1._2
     {
         static void Main(string[] args)
         {
-            MyFactory<int> factory = new MyFactory<int>();
+            MyFactory<Test>.FacrotyMethod();
+            MyFactory<int>.FacrotyMethod();
+            MyFactory<object>.FacrotyMethod();
+            MyFactory<double>.FacrotyMethod();
             Console.ReadKey();
+        }
+        public class Test
+        {
+
         }
         public class MyFactory<T> where T : new()
         {
             public static T FacrotyMethod()
             {
+                MyFactory<T> type = new MyFactory<T>();
+                Console.WriteLine(type.GetType());
                 return new T();
             }
         }

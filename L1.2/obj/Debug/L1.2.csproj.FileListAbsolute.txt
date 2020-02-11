@@ -1,0 +1,5 @@
+D:\Reprosit\C# Advance Homework\L1.2\bin\Debug\L1.2.exe.config
+D:\Reprosit\C# Advance Homework\L1.2\bin\Debug\L1.2.exe
+D:\Reprosit\C# Advance Homework\L1.2\bin\Debug\L1.2.pdb
+D:\Reprosit\C# Advance Homework\L1.2\obj\Debug\L1.2.exe
+D:\Reprosit\C# Advance Homework\L1.2\obj\Debug\L1.2.pdb
