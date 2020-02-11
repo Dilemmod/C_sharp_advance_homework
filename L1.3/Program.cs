@@ -19,9 +19,9 @@ namespace L1._3
         }
         class Calculator<T1, T2>
         {
-            public double Plus(T1 t1,T2 t2)
+            public double Plus(T1 t1, T2 t2)
             {
-                return Convert.ToDouble(t1)+Convert.ToDouble(t2);
+                return Convert.ToDouble(t1) + Convert.ToDouble(t2);
             }
             public double Minus(T1 t1, T2 t2)
             {

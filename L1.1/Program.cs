@@ -10,8 +10,8 @@ namespace L1._1
     {
         static void Main(string[] args)
         {
-            Book<string> bookStr = new Book<string>("Book1","200");
-            Book<int> bookInt = new Book<int>("Book2",200);
+            Book<string> bookStr = new Book<string>("Book1", "200");
+            Book<int> bookInt = new Book<int>("Book2", 200);
             Console.ReadLine();
         }
         class Book<T>
@@ -26,7 +26,7 @@ namespace L1._1
             }
             private void Show()
             {
-                Console.WriteLine("Name = "+ Name+"; Price = "+Price);
+                Console.WriteLine("Name = " + Name + "; Price = " + Price);
             }
         }
     }

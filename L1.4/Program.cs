@@ -11,7 +11,7 @@ namespace L1._4
         static void Main(string[] args)
         {
             //Выражение не является валидным потому что DateTime не может иметь значение null, для этого нужно было иницыализировать переменную таким образом:
-            DataTime? time = null;
+            DateTime? time = null;
             if (time == null)
             {
                 /* do something */
