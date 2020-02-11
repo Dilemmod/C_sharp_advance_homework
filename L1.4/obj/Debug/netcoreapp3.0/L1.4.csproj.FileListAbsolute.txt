@@ -1,0 +1,11 @@
+D:\ITEA\C# adv\HW\L1.1\L1.4\bin\Debug\netcoreapp3.0\L1.4.exe
+D:\ITEA\C# adv\HW\L1.1\L1.4\bin\Debug\netcoreapp3.0\L1.4.deps.json
+D:\ITEA\C# adv\HW\L1.1\L1.4\bin\Debug\netcoreapp3.0\L1.4.runtimeconfig.json
+D:\ITEA\C# adv\HW\L1.1\L1.4\bin\Debug\netcoreapp3.0\L1.4.runtimeconfig.dev.json
+D:\ITEA\C# adv\HW\L1.1\L1.4\bin\Debug\netcoreapp3.0\L1.4.dll
+D:\ITEA\C# adv\HW\L1.1\L1.4\bin\Debug\netcoreapp3.0\L1.4.pdb
+D:\ITEA\C# adv\HW\L1.1\L1.4\obj\Debug\netcoreapp3.0\L1.4.csprojAssemblyReference.cache
+D:\ITEA\C# adv\HW\L1.1\L1.4\obj\Debug\netcoreapp3.0\L1.4.AssemblyInfoInputs.cache
+D:\ITEA\C# adv\HW\L1.1\L1.4\obj\Debug\netcoreapp3.0\L1.4.AssemblyInfo.cs
+D:\ITEA\C# adv\HW\L1.1\L1.4\obj\Debug\netcoreapp3.0\L1.4.dll
+D:\ITEA\C# adv\HW\L1.1\L1.4\obj\Debug\netcoreapp3.0\L1.4.pdb
