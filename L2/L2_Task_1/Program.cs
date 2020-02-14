@@ -42,7 +42,7 @@ namespace L2_Task_1
                 Console.Write(myList[i]+", ");
             //myList.Clear();
 
-            int[] test = Expansion.GetArray<int>(myList);
+            int[] test = Expansion_Task_2.GetArray<int>(myList);
             Console.WriteLine();
             foreach(var temp in test)
                 Console.Write(temp+", ");
