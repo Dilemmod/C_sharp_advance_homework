@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace L2_Task_1
 {
-    static class Expansion
+    static class Expansion_Task_2
     {
         public static T[] GetArray<T>(this MyList<T> list)
         {
