@@ -1,0 +1,5 @@
+D:\Reprosit\C# Advance Homework\L2\L2_Task_3\bin\Debug\L2_Task_3.exe.config
+D:\Reprosit\C# Advance Homework\L2\L2_Task_3\bin\Debug\L2_Task_3.exe
+D:\Reprosit\C# Advance Homework\L2\L2_Task_3\bin\Debug\L2_Task_3.pdb
+D:\Reprosit\C# Advance Homework\L2\L2_Task_3\obj\Debug\L2_Task_3.exe
+D:\Reprosit\C# Advance Homework\L2\L2_Task_3\obj\Debug\L2_Task_3.pdb
