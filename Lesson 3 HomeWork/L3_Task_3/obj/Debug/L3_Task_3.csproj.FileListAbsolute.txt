@@ -1,0 +1,6 @@
+D:\Reprosit\C# Advance Homework\L3\L3_Task_3\bin\Debug\L3_Task_3.exe.config
+D:\Reprosit\C# Advance Homework\L3\L3_Task_3\bin\Debug\L3_Task_3.exe
+D:\Reprosit\C# Advance Homework\L3\L3_Task_3\bin\Debug\L3_Task_3.pdb
+D:\Reprosit\C# Advance Homework\L3\L3_Task_3\obj\Debug\L3_Task_3.exe
+D:\Reprosit\C# Advance Homework\L3\L3_Task_3\obj\Debug\L3_Task_3.pdb
+D:\Reprosit\C# Advance Homework\L3\L3_Task_3\obj\Debug\L3_Task_3.csprojAssemblyReference.cache
