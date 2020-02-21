@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4_Task_1", "L4_Task_1\L4_Task_1.csproj", "{F5865A9A-A16A-4009-B2FE-B30316B07711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4_Task_2", "L4_Task_2\L4_Task_2.csproj", "{3152DE9F-6970-4F80-B9D3-29143E0DCAC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4_Task_2", "L4_Task_2\L4_Task_2.csproj", "{3152DE9F-6970-4F80-B9D3-29143E0DCAC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4_Task_3", "L4_Task_3\L4_Task_3.csproj", "{73C1C3AB-0F6F-423C-80D3-02DCDDA1167D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L4_Task_3", "L4_Task_3\L4_Task_3.csproj", "{73C1C3AB-0F6F-423C-80D3-02DCDDA1167D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4_Task_4", "L4_Task_4\L4_Task_4.csproj", "{6929129F-3980-44A6-953F-4659E62C641F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{73C1C3AB-0F6F-423C-80D3-02DCDDA1167D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73C1C3AB-0F6F-423C-80D3-02DCDDA1167D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73C1C3AB-0F6F-423C-80D3-02DCDDA1167D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6929129F-3980-44A6-953F-4659E62C641F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6929129F-3980-44A6-953F-4659E62C641F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6929129F-3980-44A6-953F-4659E62C641F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6929129F-3980-44A6-953F-4659E62C641F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

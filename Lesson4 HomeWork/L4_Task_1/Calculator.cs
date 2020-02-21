@@ -9,27 +9,27 @@ namespace L4_Task_1
         public Calculator(string example, out dynamic res)
         {
             res = "";
-            int plus = example.IndexOf("+"),minus = example.IndexOf("-"), multiple = example.IndexOf("*"), share = example.IndexOf("/");
-            string[] exa = example.Split(new char[] { '+','-','*','/' });
+            char oper = (example.IndexOf("+") != -1 ? '+':(example.IndexOf("-") != -1 ? '-':(example.IndexOf("*") != -1 ? '*':(example.IndexOf("/") != -1 ? '/':'+'))));
+            string[] exa = example.Split(new char[] { oper });
             double[] doubleExa = { Convert.ToDouble(exa[0]), Convert.ToDouble(exa[0]) };
-            if (plus != -1)
+            if (oper=='+')
             {
                 res=Plus(doubleExa[0], doubleExa[1]);
             }
-            else if (minus != -1)
+            else if (oper=='-')
             {
                 res = Minus(doubleExa[0], doubleExa[1]);
             }
-            else if (multiple != -1)
+            else if (oper=='*')
             {
                 res = Multiple(doubleExa[0], doubleExa[1]);
             }
-            else if (share != -1)
+            else if (oper=='/')
             {
                 res = Share(doubleExa[0], doubleExa[1]);
             }
         }
-        dynamic Plus(dynamic one,dynamic two)
+        dynamic Plus(dynamic one, dynamic two)
         {
             return one + two;
         }

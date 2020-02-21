@@ -27,7 +27,6 @@ namespace L4_Task_2
             var query =
                        from custumer in listCustumers
                        where custumer.name == "Niko"
-                       orderby custumer.name, custumer.numberPhone, custumer.auto
                        select custumer;
             Console.WriteLine();
             int i = 0;
