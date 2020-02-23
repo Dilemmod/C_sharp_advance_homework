@@ -1,0 +1,21 @@
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.exe
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.deps.json
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.runtimeconfig.json
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.runtimeconfig.dev.json
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.dll
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.pdb
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\obj\Debug\netcoreapp3.0\L4_Task_4.AssemblyInfoInputs.cache
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\obj\Debug\netcoreapp3.0\L4_Task_4.AssemblyInfo.cs
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\obj\Debug\netcoreapp3.0\L4_Task_4.dll
+D:\GitHub\C_sharp_advance_homework\Lesson4 HomeWork\L4_Task_4\obj\Debug\netcoreapp3.0\L4_Task_4.pdb
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.exe
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.deps.json
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.runtimeconfig.json
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.runtimeconfig.dev.json
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.dll
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\bin\Debug\netcoreapp3.0\L4_Task_4.pdb
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\obj\Debug\netcoreapp3.0\L4_Task_4.csprojAssemblyReference.cache
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\obj\Debug\netcoreapp3.0\L4_Task_4.AssemblyInfoInputs.cache
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\obj\Debug\netcoreapp3.0\L4_Task_4.AssemblyInfo.cs
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\obj\Debug\netcoreapp3.0\L4_Task_4.dll
+D:\GitHub\C_sharp_advance_homework\Lesson 4 HomeWork\L4_Task_4\obj\Debug\netcoreapp3.0\L4_Task_4.pdb
