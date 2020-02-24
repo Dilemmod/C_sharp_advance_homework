@@ -17,18 +17,13 @@ namespace L5_Task_1
         public Form1()
         {
             InitializeComponent();
-            Database.SetInitializer(new DropCreateDatabaseAlways<MyDatabaseEntities1>());
             db = new MyDatabaseEntities1();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            db.myTable.Load();
-            dataGridView1.DataSource = db.myTable.Local.ToBindingList();
+            db.MyTables.Load();
         }
 
         private void btnDisplay_Click(object sender, EventArgs e)
         {
+            dataGridView1.DataSource = db.MyTables.Local.ToBindingList();
         }
     }
 }

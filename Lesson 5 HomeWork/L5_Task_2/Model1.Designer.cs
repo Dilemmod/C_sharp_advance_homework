@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "D:\GitHub\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_2\Model1.edmx" включено. 
+﻿// Создание кода T4 для модели "D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_2\Model1.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.

@@ -25,6 +25,6 @@ namespace L5_Task_1
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Entity1> Entity1Set { get; set; }
+        public virtual DbSet<MyTable> MyTables { get; set; }
     }
 }

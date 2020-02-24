@@ -4,35 +4,56 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="Хранилище MyDatabaseModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <!--Ошибки, обнаруженные при создании:
-предупреждение 6013: Первичный ключ в таблице или представлении "MyDatabase.dbo.MyTable" не определен, его не удалось вывести. Эта таблица или представление исключены. Чтобы использовать сущность, необходимо проверить схему, добавить правильные ключи и раскомментировать ее.
+      <Schema Namespace="Хранилище MyDatabaseModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="MyTable">
-          <Property Name="Id" Type="nchar" MaxLength="10" />
-          <Property Name="Name" Type="int" />
-          <Property Name="Price" Type="int" />
-        </EntityType>-->
-        <EntityContainer Name="Хранилище MyDatabaseModelContainer" />
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="LastName" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="OrderNumber" Type="int" Nullable="false" />
+          <Property Name="NumberPhone" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="Хранилище MyDatabaseModelContainer">
+          <EntitySet Name="MyTable" EntityType="Self.MyTable" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
       </Schema>
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="MyDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="MyDatabaseEntities1" annotation:LazyLoadingEnabled="true" >
-          <EntitySet Name="Entity1Set" EntityType="MyDatabaseModel.Entity1" />
-        </EntityContainer>
-        <EntityType Name="Entity1">
+        <EntityType Name="MyTable">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="OrderNumber" Type="Int32" Nullable="false" />
+          <Property Name="NumberPhone" Type="Int32" Nullable="false" />
         </EntityType>
+        <EntityContainer Name="MyDatabaseEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="MyTables" EntityType="Self.MyTable" />
+        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище MyDatabaseModelContainer" CdmEntityContainer="MyDatabaseEntities1" />
+        <EntityContainerMapping StorageEntityContainer="Хранилище MyDatabaseModelContainer" CdmEntityContainer="MyDatabaseEntities1">
+          <EntitySetMapping Name="MyTables">
+            <EntityTypeMapping TypeName="MyDatabaseModel.MyTable">
+              <MappingFragment StoreEntitySet="MyTable">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+                <ScalarProperty Name="NumberPhone" ColumnName="NumberPhone" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
   </edmx:Runtime>
@@ -46,7 +67,7 @@
     <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
-        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,17 @@ namespace L5_Task_2
 {
     public partial class Form1 : Form
     {
+
+        private Model1Container db;
         public Form1()
         {
             InitializeComponent();
+            db = new Model1Container();
+        }
+
+        private void btnDisplay_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = db.EntityDataModelSet.Local.ToBindingList();
         }
     }
 }
