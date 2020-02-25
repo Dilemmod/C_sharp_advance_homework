@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,58 +12,61 @@ namespace L5_Task_3
         public OneToMenyBoxToFruit db;
         static void Main(string[] args)
         {
-                Fruit p1 = new Fruit { Name = "Nokia Lumia 930", Price = 9000 };
-                Fruit p2 = new Fruit { Name = "Nokia Lumia 830", Price = 6000 };
-                Product p3 = new Product { Name = "Samsung Galaxy S5", Price = 10000 };
-                Product p4 = new Product { Name = "Samsung Galaxy S4", Price = 6000 };
+            Database.SetInitializer(new DropCreateDatabaseAlways<OneToMenyBoxToFruit>());
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<OneToMenyBoxToFruit>());
 
-                db.Products.AddRange(new List<Product> { p1, p2, p3, p4 });
+            using (OneToMenyBoxToFruit db = new OneToMenyBoxToFruit())
+            {
+                Fruit f1 = new Fruit { Name = "Apple", CountryOfManufacture = "Ukrain", Weigth = 2 };
+                Fruit f2 = new Fruit { Name = "Banana", CountryOfManufacture = "Africa",Weigth=3};
+                Fruit f3 = new Fruit { Name = "Pear", CountryOfManufacture = "Russia",Weigth=4 };
+                Fruit f4 = new Fruit { Name = "Plums", CountryOfManufacture = "Ukrain",Weigth=1 };
+
+                db.Fruits.AddRange(new List<Fruit> { f1, f2, f3, f4 });
                 db.SaveChanges();
 
-                var products = db.Products.ToList();
+                var fruits = db.Fruits.ToList();
 
-                foreach (var item in products)
+                foreach (var item in fruits)
                 {
-                    Console.WriteLine("{0}.{1} - {2} ({3})", item.Id, item.Name, item.Price, item.Order != null ? item.Order.Customer : "Not Customer");
+                    Console.WriteLine("{0}.{1} - Country: {2} Weigth: {3}", item.Id, item.Name, item.CountryOfManufacture, item.Weigth);
                 }
-
+                
                 Console.WriteLine("-----------------------------------------");
-                Console.ReadKey();
+                int weigthFruitBox1=0, weigthFruitBox2 = 0;
+                List < Fruit > FruitBox1 =new List<Fruit> { f1, f3, f1, f1, f3 };
+                for (int i = 0; i < FruitBox1.Count; i++)
+                    weigthFruitBox1 += FruitBox1[i].Weigth;
+                List<Fruit> FruitBox2 = new List<Fruit> { f4, f2, f4, f2, f2 };
+                for (int i = 0; i < FruitBox2.Count; i++)
+                    weigthFruitBox2 += FruitBox2[i].Weigth;
 
-                Order order1 = new Order { Customer = "Ivan", Quantity = 2, Product = new List<Product> { p1, p3 } };
+                Box box1 = new Box { CountFruit = FruitBox1.Count, Weight = weigthFruitBox1, Fruit = FruitBox1 };
 
-                Order order2 = new Order { Customer = "Alex", Quantity = 1, Product = new List<Product> { p2, p4 } };
+                Box box2 = new Box { CountFruit = FruitBox2.Count, Weight = weigthFruitBox2, Fruit = FruitBox2 };
 
-                db.Orders.AddRange(new List<Order> { order1, order2 });
+                db.Boxs.AddRange(new List<Box> { box1, box2 });
                 db.SaveChanges();
 
-                var products1 = db.Products.ToList();
+                var box = db.Boxs.ToList();
 
-                foreach (var item in products1)
+                foreach (var itemBox in box)
                 {
-                    Console.WriteLine("{0}.{1} - {2} ({3})", item.Id, item.Name, item.Price, item.Order != null ? item.Order.Customer : "Not Customer");
-                }
+                    Console.WriteLine("Box {0}. - Count of fruit: {1}, Weigth: {2}", itemBox.Id, itemBox.CountFruit, itemBox.Weight);
 
-                Console.WriteLine("-----------------------------------------");
-                Console.ReadKey();
+                    if (itemBox.Fruit == null) continue;
 
-                var orders = db.Orders.ToList();
-
-                foreach (var itemOrder in orders)
-                {
-                    Console.WriteLine("{0}.{1}", itemOrder.Id, itemOrder.Customer);
-
-                    if (itemOrder.Product == null) continue;
-
-                    foreach (var itemProd in itemOrder.Product)
+                    foreach (var itemFr in itemBox.Fruit)
                     {
-                        Console.WriteLine("{0} - {1} * {2} = {3}", itemProd.Name, itemProd.Price, itemOrder.Quantity, itemProd.Price * itemOrder.Quantity);
+                        Console.WriteLine("Name:{0} - Country{1}, Weigth: {2}", itemFr.Name, itemFr.CountryOfManufacture, itemFr.Weigth);
                     }
 
                     Console.WriteLine("-----------------------------------------");
                 }
+                
                 Console.ReadKey();
-            
+
+            }
         }
     }
 }
