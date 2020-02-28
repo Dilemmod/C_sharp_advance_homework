@@ -1,0 +1,11 @@
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\bin\Debug\L5_Task_4.exe.config
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\bin\Debug\L5_Task_4.exe
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\bin\Debug\L5_Task_4.pdb
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\bin\Debug\EntityFramework.dll
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\bin\Debug\EntityFramework.SqlServer.dll
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\bin\Debug\EntityFramework.xml
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\bin\Debug\EntityFramework.SqlServer.xml
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\obj\Debug\L5_Task_4.csprojAssemblyReference.cache
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\obj\Debug\L5_Task_4.csproj.CopyComplete
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\obj\Debug\L5_Task_4.exe
+D:\Reprosit\C_sharp_advance_homework\Lesson 5 HomeWork\L5_Task_4\obj\Debug\L5_Task_4.pdb

@@ -9,8 +9,7 @@ namespace L5_Task_3
 {
     class Program
     {
-        public OneToMenyBoxToFruit db;
-        static void Main(string[] args)
+        static void Main()
         {
             Database.SetInitializer(new DropCreateDatabaseAlways<OneToMenyBoxToFruit>());
             //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<OneToMenyBoxToFruit>());
@@ -37,7 +36,7 @@ namespace L5_Task_3
                 List < Fruit > FruitBox1 =new List<Fruit> { f1, f3, f1, f1, f3 };
                 for (int i = 0; i < FruitBox1.Count; i++)
                     weigthFruitBox1 += FruitBox1[i].Weigth;
-                List<Fruit> FruitBox2 = new List<Fruit> { f4, f2, f4, f2, f2 };
+                List<Fruit> FruitBox2 = new List<Fruit> { f4, f2, f4,f2 };
                 for (int i = 0; i < FruitBox2.Count; i++)
                     weigthFruitBox2 += FruitBox2[i].Weigth;
 
