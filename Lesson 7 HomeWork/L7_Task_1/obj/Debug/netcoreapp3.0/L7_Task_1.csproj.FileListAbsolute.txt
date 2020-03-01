@@ -1,0 +1,11 @@
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\obj\Debug\netcoreapp3.0\L7_Task_1.AssemblyInfoInputs.cache
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\obj\Debug\netcoreapp3.0\L7_Task_1.AssemblyInfo.cs
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\bin\Debug\netcoreapp3.0\L7_Task_1.exe
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\bin\Debug\netcoreapp3.0\L7_Task_1.deps.json
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\bin\Debug\netcoreapp3.0\L7_Task_1.runtimeconfig.json
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\bin\Debug\netcoreapp3.0\L7_Task_1.runtimeconfig.dev.json
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\bin\Debug\netcoreapp3.0\L7_Task_1.dll
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\bin\Debug\netcoreapp3.0\L7_Task_1.pdb
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\obj\Debug\netcoreapp3.0\L7_Task_1.dll
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\obj\Debug\netcoreapp3.0\L7_Task_1.pdb
+D:\GitHub\C_sharp_advance_homework\Lesson 7 HomeWork\L7_Task_1\obj\Debug\netcoreapp3.0\L7_Task_1.csprojAssemblyReference.cache
