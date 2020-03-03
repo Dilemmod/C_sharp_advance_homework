@@ -1,0 +1,10 @@
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\bin\Debug\L6_Task_2.exe.config
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\bin\Debug\L6_Task_2.exe
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\bin\Debug\L6_Task_2.pdb
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\bin\Debug\L6_Task_1.exe
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\bin\Debug\L6_Task_1.pdb
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\bin\Debug\L6_Task_1.exe.config
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\obj\Debug\L6_Task_2.csprojAssemblyReference.cache
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\obj\Debug\L6_Task_2.csproj.CopyComplete
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\obj\Debug\L6_Task_2.exe
+D:\Reprosit\C_sharp_advance_homework\Lesson 6 HomeWork\L6_Task_2\obj\Debug\L6_Task_2.pdb
