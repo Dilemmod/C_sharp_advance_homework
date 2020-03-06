@@ -11,11 +11,7 @@ namespace L7_Task_3
             Console.WriteLine("Введите файл которий нужно найти: ");
             //string fileName = "RandomText.txt";
             string fileName = Console.ReadLine();
-            Console.WriteLine("Введите путь где находиться файл: ");
-            //string path = @"D:\";
-            string path = Console.ReadLine();
-            DirectoryInfo directory = new DirectoryInfo(path);
-            FileInfo[] filesTXT = directory.GetFiles(fileName);
+            string[] filesTXT = Directory.GetFiles(@".", fileName, SearchOption.AllDirectories);
 
             if (directory.Exists)
             {
