@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MyContacts>
+  <Contact Name="Sashko" TelephoneNumber="3809522247" />
+  <Contact Name="Masha" TelephoneNumber="3809555557" />
+  <Contact Name="Nina" TelephoneNumber="3809777777" />
+  <Contact Name="Lexus" TelephoneNumber="3809539442" />
+  <Contact Name="Costya" TelephoneNumber="3809532323" />
+  <Contact Name="Nastya" TelephoneNumber="3809333766" />
+</MyContacts>
