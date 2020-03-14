@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Reprosit\\C_sharp_advance_homework\\Lesson_7_Input_Output\\L7_Task_2\\L7_Task_2.csproj": {}
+  },
+  "projects": {
+    "D:\\Reprosit\\C_sharp_advance_homework\\Lesson_7_Input_Output\\L7_Task_2\\L7_Task_2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Reprosit\\C_sharp_advance_homework\\Lesson_7_Input_Output\\L7_Task_2\\L7_Task_2.csproj",
+        "projectName": "L7_Task_2",
+        "projectPath": "D:\\Reprosit\\C_sharp_advance_homework\\Lesson_7_Input_Output\\L7_Task_2\\L7_Task_2.csproj",
+        "packagesPath": "C:\\Users\\LVL-UP\\.nuget\\packages\\",
+        "outputPath": "D:\\Reprosit\\C_sharp_advance_homework\\Lesson_7_Input_Output\\L7_Task_2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "D:\\Computer\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LVL-UP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

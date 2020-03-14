@@ -1,0 +1,8 @@
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\Library1\bin\Debug\netstandard2.0\Library1.deps.json
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\Library1\bin\Debug\netstandard2.0\Library1.dll
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\Library1\bin\Debug\netstandard2.0\Library1.pdb
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\Library1\obj\Debug\netstandard2.0\Library1.csprojAssemblyReference.cache
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\Library1\obj\Debug\netstandard2.0\Library1.AssemblyInfoInputs.cache
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\Library1\obj\Debug\netstandard2.0\Library1.AssemblyInfo.cs
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\Library1\obj\Debug\netstandard2.0\Library1.dll
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\Library1\obj\Debug\netstandard2.0\Library1.pdb

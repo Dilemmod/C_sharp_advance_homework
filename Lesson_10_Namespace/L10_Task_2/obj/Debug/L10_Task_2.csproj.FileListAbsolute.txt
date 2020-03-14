@@ -1,0 +1,9 @@
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\L10_Task_2\bin\Debug\L10_Task_2.exe.config
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\L10_Task_2\bin\Debug\L10_Task_2.exe
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\L10_Task_2\bin\Debug\L10_Task_2.pdb
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\L10_Task_2\bin\Debug\Library1.dll
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\L10_Task_2\bin\Debug\Library1.pdb
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\L10_Task_2\obj\Debug\L10_Task_2.csprojAssemblyReference.cache
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\L10_Task_2\obj\Debug\L10_Task_2.csproj.CopyComplete
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\L10_Task_2\obj\Debug\L10_Task_2.exe
+D:\Reprosit\C_sharp_advance_homework\Lesson_10_Namespace\L10_Task_2\obj\Debug\L10_Task_2.pdb
