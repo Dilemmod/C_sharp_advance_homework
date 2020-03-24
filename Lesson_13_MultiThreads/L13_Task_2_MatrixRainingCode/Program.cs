@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -9,24 +11,24 @@ namespace L13_Task_2_MatrixRainingCode
 {
     class Program
     {
+        [DllImport("user32.dll")]
+        public static extern bool ShowWindow(System.IntPtr hWnd, int cmdShow);
         static void Main()
         {
-            Random rand = new Random();
-            int indent = 0;
-            //Console.BufferWidth = 1000;
-            Console.SetBufferSize(1000, 1000);
-           // Console.WindowWidth = 999;
-            while (indent<Console.WindowWidth)
+            Process p = Process.GetCurrentProcess();
+            ShowWindow(p.MainWindowHandle, 3);
+            Console.BufferHeight = Console.WindowHeight;
+            //СhainCode instance = new СhainCode(2);
+            //instance.RunChain();
+            СhainCode instance;
+
+            for (int i = 0; i < 34; i++)
             {
-                СhainCode chainThread = new СhainCode();
-                //chainThread.RunChain(0);
-                Thread thread = new Thread(chainThread.RunChain);
-                thread.Start(indent);
-                indent++;
+                instance = new СhainCode(i * 7);
+                new Thread(instance.RunChain).Start();
             }
 
             Console.ReadKey();
         }
-
     }
 }

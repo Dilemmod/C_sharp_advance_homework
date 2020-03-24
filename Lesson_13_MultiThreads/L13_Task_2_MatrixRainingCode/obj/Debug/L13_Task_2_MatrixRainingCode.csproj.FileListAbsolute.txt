@@ -4,3 +4,9 @@ C:\Users\LVL-UP\source\repos\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode
 C:\Users\LVL-UP\source\repos\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode\obj\Debug\L13_Task_2_MatrixRainingCode.exe
 C:\Users\LVL-UP\source\repos\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode\obj\Debug\L13_Task_2_MatrixRainingCode.pdb
 C:\Users\LVL-UP\source\repos\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode\obj\Debug\L13_Task_2_MatrixRainingCode.csprojAssemblyReference.cache
+D:\GitHub\C_sharp_advance_homework\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode\bin\Debug\L13_Task_2_MatrixRainingCode.exe.config
+D:\GitHub\C_sharp_advance_homework\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode\bin\Debug\L13_Task_2_MatrixRainingCode.exe
+D:\GitHub\C_sharp_advance_homework\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode\bin\Debug\L13_Task_2_MatrixRainingCode.pdb
+D:\GitHub\C_sharp_advance_homework\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode\obj\Debug\L13_Task_2_MatrixRainingCode.csprojAssemblyReference.cache
+D:\GitHub\C_sharp_advance_homework\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode\obj\Debug\L13_Task_2_MatrixRainingCode.exe
+D:\GitHub\C_sharp_advance_homework\Lesson_13_MultiThreads\L13_Task_2_MatrixRainingCode\obj\Debug\L13_Task_2_MatrixRainingCode.pdb
