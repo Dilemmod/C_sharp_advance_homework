@@ -11,15 +11,17 @@ namespace L13_Task_2_MatrixRainingCode
 {
     class Program
     {
+        //Full screen
         [DllImport("user32.dll")]
         public static extern bool ShowWindow(System.IntPtr hWnd, int cmdShow);
         static void Main()
         {
+            //Размер окна
             Process p = Process.GetCurrentProcess();
             ShowWindow(p.MainWindowHandle, 3);
             Console.BufferHeight = Console.WindowHeight;
-            //СhainCode instance = new СhainCode(2);
-            //instance.RunChain();
+
+
             СhainCode instance;
 
             for (int i = 0; i < 34; i++)

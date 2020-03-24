@@ -57,7 +57,10 @@ namespace L13_Task_2_MatrixRainingCode
                 if (j == 0)
                     Console.WriteLine(" ");
                 else
-                    Console.WriteLine((char)rand.Next('A', 'Z'));
+                {
+                    int choice = rand.Next(0, 3);
+                    Console.WriteLine(choice==0?(char)rand.Next('#', '&'):(choice==1? (char)rand.Next('0', '9'): (char)rand.Next('A', 'Z')));
+                }
             }
         }
     }
