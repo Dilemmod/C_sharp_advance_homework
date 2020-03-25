@@ -1,0 +1,6 @@
+D:\Reprosit\C_sharp_advance_homework\Lesson_14_Threads_2\Task_3\bin\Debug\Task_3.exe.config
+D:\Reprosit\C_sharp_advance_homework\Lesson_14_Threads_2\Task_3\bin\Debug\Task_3.exe
+D:\Reprosit\C_sharp_advance_homework\Lesson_14_Threads_2\Task_3\bin\Debug\Task_3.pdb
+D:\Reprosit\C_sharp_advance_homework\Lesson_14_Threads_2\Task_3\obj\Debug\Task_3.exe
+D:\Reprosit\C_sharp_advance_homework\Lesson_14_Threads_2\Task_3\obj\Debug\Task_3.pdb
+D:\Reprosit\C_sharp_advance_homework\Lesson_14_Threads_2\Task_3\obj\Debug\Task_3.csprojAssemblyReference.cache
